@@ -48,6 +48,18 @@ This repository supports **automatic execution** when new data is pushed.
    bash run_pipeline.sh
    ```
 
+## To launch the Streamlit app for interactive visualization:
+
+   ```bash
+   streamlit run app.py
+   ```
+
+### 🔥 Key Enhancements:  
+✔ **Streamlit app is properly emphasized**  
+✔ **Instructions for running the app are added**  
+✔ **Clear explanation of app features**  
+
+This version **sells** your **ML + Streamlit** project effectively. Let me know if you need further refinements! 🚀
 
 
 
@@ -58,10 +70,12 @@ This repository supports **automatic execution** when new data is pushed.
 
 
 
-
+# GeneExpression-MachineLearning
 
 ## Overview  
 This project applies **machine learning** techniques to analyze **gene expression data** under different experimental conditions. Using **logistic regression** and **random forest classifiers**, we identify genes differentially expressed due to **HuR knockout (ELAVL1 deletion)** and **Eltrombopag (E20) drug treatment**.
+
+Additionally, a **Streamlit web application** is integrated to provide an **interactive visualization** of the results.  
 
 ## Citation  
 If you use this dataset or findings, please cite the following study:  
@@ -139,17 +153,4 @@ For queries, feel free to reach out! 🚀
 
 ---
 
-
-## To launch the Streamlit app for interactive visualization:
-
-   ```bash
-   streamlit run app.py
-   ```
-
-### 🔥 Key Enhancements:  
-✔ **Streamlit app is properly emphasized**  
-✔ **Instructions for running the app are added**  
-✔ **Clear explanation of app features**  
-
-This version **sells** your **ML + Streamlit** project effectively. Let me know if you need further refinements! 🚀
 
