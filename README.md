@@ -70,9 +70,7 @@ This version **sells** your **ML + Streamlit** project effectively. Let me know 
 
 
 
-# GeneExpression-MachineLearning
-
-## Overview  
+# Project Overview  
 This project applies **machine learning** techniques to analyze **gene expression data** under different experimental conditions. Using **logistic regression** and **random forest classifiers**, we identify genes differentially expressed due to **HuR knockout (ELAVL1 deletion)** and **Eltrombopag (E20) drug treatment**.
 
 Additionally, a **Streamlit web application** is integrated to provide an **interactive visualization** of the results.  
