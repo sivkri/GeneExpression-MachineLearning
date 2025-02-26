@@ -1,22 +1,54 @@
 # GeneExpression-MachineLearning
 Supervised Machine Learning for Gene Expression Analysis
+# Supervised Machine Learning for Gene Expression Analysis
 
-This repository showcases the application of supervised machine learning techniques to analyze gene expression data. It includes logistic regression and random forest classifiers to differentiate gene expression patterns across different conditions. The project is fully automated with GitHub Actions, and a Streamlit app is included for interactive visualization.
+This repository showcases the application of **Logistic Regression** and **Random Forest** for gene expression analysis. It automates data processing, model training, and evaluation.
 
-Key Features
-📊 Preprocessing: Data normalization and transformation
-🔬 Machine Learning Models: Logistic Regression & Random Forest
-📈 Visualization: PCA, heatmaps, and model evaluation metrics
-🤖 Automation: GitHub Actions for continuous integration
-🌐 Interactive App: Streamlit-powered web interface
-Project Structure
-📦 GeneExpression-MachineLearning
-┣ 📂 data/ - Raw gene expression data
-┣ 📂 results/ - Model reports and visualization images
-┣ 📜 preprocess.py - Data preprocessing script
-┣ 📜 train.py - ML model training script
-┣ 📜 evaluate.py - Model evaluation with visualizations
-┣ 📜 run_pipeline.sh - Shell script to run the entire pipeline
-┣ 📜 run_pipeline.yml - GitHub Actions workflow
-┣ 📜 app.py - Streamlit app for visualization
-┣ 📜 README.md - Project documentation
+## 🚀 Features
+- **Preprocessing**: Formats gene expression data
+- **Machine Learning**: Uses Logistic Regression & Random Forest
+- **Evaluation**: Generates accuracy reports and confusion matrices
+- **Automation**: Includes a shell script & GitHub Actions
+
+## 📂 Repository Structure
+```
+📦 ml_gene_expression_project
+ ┣ 📂 data               # Stores gene expression data
+ ┣ 📂 results            # Model reports and images
+ ┣ 📜 preprocess.py      # Data processing script
+ ┣ 📜 train.py           # Model training
+ ┣ 📜 evaluate.py        # Model evaluation with visualization
+ ┣ 📜 run_pipeline.sh    # Shell script to execute the full pipeline
+ ┣ 📜 run_pipeline.yml   # GitHub Actions workflow
+ ┣ 📜 app.py             # Streamlit app for visualization
+ ┣ 📜 README.md          # Project documentation
+```
+
+## 🏃 Run the Pipeline
+```bash
+bash run_pipeline.sh
+```
+
+## 🖼️ Sample Outputs
+- Model Accuracy Reports in `results/`
+- Confusion Matrices saved as images
+
+## 🤖 GitHub Actions
+This repository supports **automatic execution** when new data is pushed.
+
+## 📌 How to Use
+1. Clone the repository:  
+   ```bash
+   git clone https://github.com/sivkri/ml_gene_expression_project.git
+   ```
+2. Navigate to the directory:  
+   ```bash
+   cd ml_gene_expression_project
+   ```
+3. Run the pipeline:  
+   ```bash
+   bash run_pipeline.sh
+   ```
+
+## 📧 Contact
+For queries, feel free to reach out! 🚀
