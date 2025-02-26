@@ -22,10 +22,6 @@ This repository showcases the application of **Logistic Regression** and **Rando
  ┣ 📜 **README.md**           → Project documentation  
 ```
 
-
-
-
-
 ## 🏃 Run the Pipeline
 ```bash
 bash run_pipeline.sh
@@ -52,10 +48,17 @@ This repository supports **automatic execution** when new data is pushed.
    bash run_pipeline.sh
    ```
 
+
+
+
 ## Results & Findings
 - Identified top genes differentiating wild-type (WT) vs knockout (KO) conditions
 - Evaluated the impact of Eltrombopag (E20) treatment
 - Achieved 75% accuracy with the Random Forest classifier
+
+
+
+
 
 ## Overview  
 This project applies **machine learning** techniques to analyze **gene expression data** under different experimental conditions. Using **logistic regression** and **random forest classifiers**, we identify genes differentially expressed due to **HuR knockout (ELAVL1 deletion)** and **Eltrombopag (E20) drug treatment**.
@@ -134,4 +137,19 @@ I have performed **three key comparisons** using **supervised learning** to clas
 ## 📧 Contact
 For queries, feel free to reach out! 🚀
 
+---
+
+
+## To launch the Streamlit app for interactive visualization:
+
+   ```bash
+   streamlit run app.py
+   ```
+
+### 🔥 Key Enhancements:  
+✔ **Streamlit app is properly emphasized**  
+✔ **Instructions for running the app are added**  
+✔ **Clear explanation of app features**  
+
+This version **sells** your **ML + Streamlit** project effectively. Let me know if you need further refinements! 🚀
 
