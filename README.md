@@ -12,17 +12,21 @@ This repository showcases the application of **Logistic Regression** and **Rando
 
 ## 📂 Repository Structure
 ```
-📦 ml_gene_expression_project
- ┣ 📂 data               # Stores gene expression data
- ┣ 📂 results            # Model reports and images
- ┣ 📜 preprocess.py      # Data processing script
- ┣ 📜 train.py           # Model training
- ┣ 📜 evaluate.py        # Model evaluation with visualization
- ┣ 📜 run_pipeline.sh    # Shell script to execute the full pipeline
- ┣ 📜 run_pipeline.yml   # GitHub Actions workflow
- ┣ 📜 app.py             # Streamlit app for visualization
- ┣ 📜 README.md          # Project documentation
+📂 **ml_gene_expression_project**  
+ ┣ 📂 **data/**               → Stores gene expression data  
+ ┣ 📂 **results/**            → Model reports and visualizations  
+ ┣ 📜 **preprocess.py**       → Data processing script  
+ ┣ 📜 **train.py**            → Model training script  
+ ┣ 📜 **evaluate.py**         → Model evaluation with visualization  
+ ┣ 📜 **run_pipeline.sh**     → Shell script to automate pipeline execution  
+ ┣ 📜 **run_pipeline.yml**    → GitHub Actions workflow  
+ ┣ 📜 **app.py**              → Streamlit app for interactive visualization  
+ ┣ 📜 **README.md**           → Project documentation  
 ```
+
+
+
+
 
 ## 🏃 Run the Pipeline
 ```bash
@@ -55,6 +59,79 @@ This repository supports **automatic execution** when new data is pushed.
 - Evaluated the impact of Eltrombopag (E20) treatment
 - Achieved 75% accuracy with the Random Forest classifier
 
+## Overview  
+This project applies **machine learning** techniques to analyze **gene expression data** under different experimental conditions. Using **logistic regression** and **random forest classifiers**, we identify genes differentially expressed due to **HuR knockout (ELAVL1 deletion)** and **Eltrombopag (E20) drug treatment**.
+
+## Citation  
+If you use this dataset or findings, please cite the following study:  
+📖 **DOI:** [10.1186/s12915-025-02131-z](https://doi.org/10.1186/s12915-025-02131-z)
+
+---
+
+## **Experimental Design**  
+
+This study investigates how **HuR knockout (KO)** and **Eltrombopag (E20) treatment** influence gene expression compared to wild-type (WT) and mock treatment (DMSO).
+
+### **Sample Groups**  
+The dataset consists of the following experimental conditions:
+
+| Sample Group | Description |
+|-------------|-------------|
+| **WT-DMSO** | Wild-type (WT) cells treated with mock (DMSO) |
+| **WT-E20**  | Wild-type (WT) cells treated with Eltrombopag (E20) |
+| **KO-DMSO** | HuR knockout (KO) cells treated with mock (DMSO) |
+| **KO-E20**  | HuR knockout (KO) cells treated with Eltrombopag (E20) |
+
+Each sample contains gene expression data across thousands of genes. **HuR (ELAVL1)** is a key **RNA-binding protein**, and its knockout may significantly alter gene expression. **Eltrombopag** is a thrombopoietin receptor agonist that may influence transcriptional programs.
+
+---
+
+## **Comparisons & Research Questions**  
+
+I have performed **three key comparisons** using **supervised learning** to classify gene expression profiles.
+
+### **1️⃣ Effect of HuR Knockout (KO vs. WT)**
+- **Comparison:** **WT-DMSO vs. KO-DMSO**  
+- **Objective:** Identify genes affected by HuR deletion.  
+- **Machine Learning Approach:**  
+  - Features: Gene expression levels  
+  - Labels: WT-DMSO (class 0) vs. KO-DMSO (class 1)  
+
+### **2️⃣ Effect of Eltrombopag in Wild-Type Cells**
+- **Comparison:** **WT-DMSO vs. WT-E20**  
+- **Objective:** Determine gene expression changes due to Eltrombopag in normal cells.  
+- **Machine Learning Approach:**  
+  - Features: Gene expression levels  
+  - Labels: WT-DMSO (class 0) vs. WT-E20 (class 1)  
+
+### **3️⃣ Effect of Eltrombopag in HuR Knockout Cells**
+- **Comparison:** **KO-DMSO vs. KO-E20**  
+- **Objective:** Understand the **HuR-dependent** response to Eltrombopag.  
+- **Machine Learning Approach:**  
+  - Features: Gene expression levels  
+  - Labels: KO-DMSO (class 0) vs. KO-E20 (class 1)  
+
+---
+
+## **Data Processing & Machine Learning Workflow**  
+
+1. **Preprocessing:**  
+   - Normalize expression data  
+   - Convert into a machine-learning-ready format  
+
+2. **Model Training & Feature Selection:**  
+   - Train **logistic regression** and **random forest** classifiers  
+   - Perform **Principal Component Analysis (PCA)**  
+
+3. **Evaluation:**  
+   - Compute **accuracy, confusion matrices, classification reports**  
+   - Identify **top differentially expressed genes**  
+
+4. **Visualization & Reporting:**  
+   - Generate **PCA scatter plots**  
+   - Save **model performance metrics**  
+
+---
 
 ## 📧 Contact
 For queries, feel free to reach out! 🚀
