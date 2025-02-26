@@ -39,7 +39,7 @@ This repository supports **automatic execution** when new data is pushed.
 ## 📌 How to Use
 1. Clone the repository:  
    ```bash
-   git clone https://github.com/sivkri/ml_gene_expression_project.git
+   git clone https://github.com/sivkri/GeneExpression-MachineLearning.git
    ```
 2. Navigate to the directory:  
    ```bash
