@@ -43,7 +43,7 @@ This repository supports **automatic execution** when new data is pushed.
    ```
 2. Navigate to the directory:  
    ```bash
-   cd ml_gene_expression_project
+   cd GeneExpression-MachineLearning
    ```
 3. Run the pipeline:  
    ```bash
