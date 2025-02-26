@@ -50,5 +50,13 @@ This repository supports **automatic execution** when new data is pushed.
    bash run_pipeline.sh
    ```
 
+## Results & Findings
+- Identified top genes differentiating wild-type (WT) vs knockout (KO) conditions
+- Evaluated the impact of Eltrombopag (E20) treatment
+- Achieved 75% accuracy with the Random Forest classifier
+
+
 ## 📧 Contact
 For queries, feel free to reach out! 🚀
+
+
