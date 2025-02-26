@@ -1,5 +1,3 @@
-# GeneExpression-MachineLearning
-
 # Supervised Learning for Gene Expression Analysis
 
 This repository showcases the application of **Logistic Regression** and **Random Forest** for gene expression analysis. It automates data processing, model training, and evaluation.
